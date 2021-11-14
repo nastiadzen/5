@@ -1,5 +1,4 @@
 import random
-import time
 m=[]
 n=[] 
 print('Введіть кількість гравців ')
@@ -51,11 +50,19 @@ def otobrstol():
    global stol
    for  i in n:
      otobr(i)
-   
-   
-  
 gen() 
 random.shuffle(b) 
 for i in range (x): 
   datkart (i)
   otobrpla(i)
+def show(self):
+        for card in self.cards:
+            print (card.show())
+def shuffle(self, q=1):
+        length = len(self.cards)
+        for _ in range(q):
+            for i in range(length-1, 0, -1):
+                randi = random.randint(0, i)
+                if i == randi:
+                    continue
+                self.cards[i], self.cards[randi] = self.cards[randi], self.cards[i]
