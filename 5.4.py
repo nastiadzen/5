@@ -6,7 +6,7 @@ x=int(input())
 b=[] 
 v=['6','7','8','9','10','В','Д','К','А'] 
 c=['Бубна','Чирва','Піка','Трефа'] 
-class Card: 
+class КолодаКарт: 
   def __init__ (self,suit,value): 
       self.suit=suit
       self.value=value 

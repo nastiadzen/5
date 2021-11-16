@@ -1,4 +1,4 @@
-class Library():
+class ДомашняБібліотека():
     def __init__(self, number, name, author, year):
         self.number=number
         self.name=name

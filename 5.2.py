@@ -1,4 +1,4 @@
-class Student:
+class Студент:
     def __init__(self, name, settings_dict):
         self.name=name
         self.a=settings_dict['a']
